@@ -1,0 +1,17 @@
+{
+  "connector.class": "MicrophoneSource",
+  "name": "microphone-source",
+  "tasks.max": "1",
+
+  "value.converter": "ByteArray",
+
+  "topic": "sound-raw-input",
+
+  "sample.rate": "44100",
+  "sample.size": "16",
+  "channels.count": "1",
+  "endian": "little",
+  "signed": "true",
+
+  "buffer.size": "1024"
+}

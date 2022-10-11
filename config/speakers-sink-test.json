@@ -1,0 +1,14 @@
+{
+  "connector.class": "SpeakersSinkConnector",
+  "name": "speakers-sink",
+  "tasks.max": "1",
+  "value.converter": "ByteArray",
+  "consumer.override.auto.offset.reset": "latest",
+  "topics": "speakers-sink-test",
+  "sample.rate": "44100",
+  "sample.size": "16",
+  "channels.count": "1",
+  "endian": "little",
+  "signed": "true",
+  "buffer.size": "1024"
+}
